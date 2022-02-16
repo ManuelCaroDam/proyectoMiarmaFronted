@@ -27,6 +27,7 @@ class _MenuScreenState extends State<MenuScreen> {
 
   Widget _buildBottomBar() {
     return Container(
+        // ignore: prefer_const_constructors
         decoration: BoxDecoration(
             border: const Border(
           top: BorderSide(
@@ -34,7 +35,7 @@ class _MenuScreenState extends State<MenuScreen> {
             width: 1.0,
           ),
         )),
-        padding: EdgeInsets.symmetric(horizontal: 20.0),
+        padding: const EdgeInsets.symmetric(horizontal: 20.0),
         height: 70,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
